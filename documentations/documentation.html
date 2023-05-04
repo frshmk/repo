@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>farshmak - Documentation</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <button id="toggle-sidebar-btn">✚</button>
+      <div id="page-overlay"></div>
+      <div id="sidebar">
+         <a href="https://frshmk.github.io/repo/">
+            <h2>farshmak</h2>
+         </a>
+         <a href="#1">Title</a>
+         <ul>
+            <li><a href="#1">title</a></li>
+            <li><a href="#2">title</a></li>
+            <li><a href="#3">title</a></li>
+            <li><a href="#4">title</a></li>
+            <li><a href="#5">title</a></li>
+            <li><a href="#6">title</a></li>
+         </ul>
+         <a href="#7">Title</a>
+         <ul>
+            <li><a href="#7">title</a></li>
+            <li><a href="#8">title</a></li>
+         </ul>
+         <h1>_</h1>
+      </div>
+      <div id="main">
+      <section id="1">
+         <h1>Title</h1>
+         <h2>text</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+         <br><br><br>
+      </section>
+      <h2>title<br></h2>
+      <section id="2">
+         <p><b>text: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <b>text</b></p>
+         <br><br><br>
+      </section>
+      <section id="3">
+         <p><b>text: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <b>text</b></p>
+         <br><br><br>
+      </section>
+      <section id="4">
+         <p><b>text: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <b>text</b></p>
+         <br><br><br>
+      </section>
+      <section id="5">
+         <p><b>text: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <b>text</b></p>
+         <br><br><br>
+      </section>
+      <section id="6">
+         <p><b>text: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <b>text</b></p>
+         <br><br><br>
+      </section>
+      <section id="7">
+         <h1>Title</h1>
+         <h2>text</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+         <br><br><br>
+      </section>
+      <section id="8">
+         <p><b>text: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <br><br><br>
+      </section>
+      <script>
+         const sidebar = document.getElementById('sidebar');
+         const toggleBtn = document.getElementById('toggle-sidebar-btn');
+         const body = document.body;
+         
+         toggleBtn.addEventListener('click', () => {
+           sidebar.classList.toggle('hidden');
+           body.classList.toggle('sidebar-hidden');
+         });
+         
+      </script>
+   </body>
+</html>
