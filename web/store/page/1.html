@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>My Webpage</title>
+  <title>farshmak - Releases</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -10,42 +10,31 @@
   <a href="https://frshmk.github.io/repo/"><h1>farshmak</h1></a>
   </header>
   <main class="container">
+
     <div class="button-container">
-      <button class="button">
-        <img src="https://i.ibb.co/k9J4ggx/40b8359cabe0.jpg" alt="Button 1" height="200">
-        <p class="button-text">Button 1</p>
+      <button class="button" id="button1">
+        <img src="https://codescracker.com/html/images/html-document-structure-example.jpg" alt="HTML Documentation" height="200">
+        <p class="button-text">HTML Documentation</p>
       </button>
     </div>
+
     <div class="button-container">
-      <button class="button">
-        <img src="https://i.ibb.co/k9J4ggx/40b8359cabe0.jpg" alt="Button 1" height="200">
-        <p class="button-text">Button 2</p>
+      <button class="button" id="button2">
+        <img src="https://cdn.cloudflare.steamstatic.com/store/home/store_home_share.jpg" alt="SteamID Finder" height="200">
+        <p class="button-text">SteamID Finder</p>
       </button>
     </div>
-    <div class="button-container">
-      <button class="button">
-        <img src="https://i.ibb.co/k9J4ggx/40b8359cabe0.jpg" alt="Button 1" height="200">
-        <p class="button-text">Button 3</p>
-      </button>
-    </div>
-    <div class="button-container">
-      <button class="button">
-        <img src="https://i.ibb.co/k9J4ggx/40b8359cabe0.jpg" alt="Button 1" height="200">
-        <p class="button-text">Button 4</p>
-      </button>
-    </div>
-    <div class="button-container">
-      <button class="button">
-        <img src="https://i.ibb.co/k9J4ggx/40b8359cabe0.jpg" alt="Button 1" height="200">
-        <p class="button-text">Button 5</p>
-      </button>
-    </div>
-    <div class="button-container">
-      <button class="button">
-        <img src="https://i.ibb.co/k9J4ggx/40b8359cabe0.jpg" alt="Button 1" height="200">
-        <p class="button-text">Button 6</p>
-      </button>
-    </div>
+
   </main>
+  <script>
+    // Add event listeners to each button
+    document.getElementById("button1").addEventListener("click", function() {
+      window.location.href = "https://github.com/frshmk/repo/releases/tag/html_documentation/latest";
+    });
+    
+    document.getElementById("button2").addEventListener("click", function() {
+      window.location.href = "https://github.com/frshmk/repo/releases/tag/steamid_converter/latest";
+    });
+  </script>
 </body>
 </html>
