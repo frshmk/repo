@@ -6,14 +6,15 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <audio autoplay>
-    <source src="https://github.com/frshmk/repo/raw/main/web/media/web/thelema.mp3" type="audio/mpeg">
-  </audio>
   <div class="container">
     <h1>farshmak</h1>
     <div class="button-container">
       <button onclick="window.location.href='https://frshmk.github.io/repo/discord';">Discord</button>
       <button onclick="window.location.href='https://frshmk.github.io/repo/web/store/page/1';">Releases</button>
     </div>
+    <script>
+      var audio = new Audio('https://github.com/frshmk/repo/raw/main/web/media/web/thelema.mp3');
+      audio.play();
+    </script>
 </body>
 </html>
