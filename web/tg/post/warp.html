@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>t.me/frshmk</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<img src="https://i.imgur.com/AdStZ4S.png" alt="Image" class="image">
+        <div class="button-container">
+            <button onclick="window.location.href='https://www.wireguard.com/install/';">Download WireGuard</button>
+            <button onclick="window.location.href='https://frshmk.github.io/repo/web/tg/dl/warp.conf';">Download .conf file</button>
+            <button onclick="window.location.href='https://1.1.1.1/help';">Test WARP connection</button>
+        </div>
+	</div>
+    <div class="text-container">
+        <h1 class="title">WARP</h1>
+
+        <p class="description"><a href="https://blog.cloudflare.com/warp-for-desktop">Cloudflare Warp</a> is a <a href="https://ru.wikipedia.org/wiki/TOR">TOR</a> implementation by Cloudflare. WARP encrypts all the traffic from your device and send it directly to Cloudflare’s nearest bridge, and then to destination server.</p>
+
+        <p class="description">Main benefit of using WARP is while it acts like <a href="https://ru.wikipedia.org/wiki/VPN">VPN</a>, it does not make your connection speed slower. WARP will help you hide your traffic from <a href="https://ru.wikipedia.org/wiki/Интернет-провайдер">ISP</a> and gain access to blocked resourses, hide your real IP <b>(your IP still be representing your country because WARP will connect you to nearest bridge)</b> and protect it from (D)DoS attacks. However WARP is not designed for being anonymous, Cloudflare logs WARP usage.</p>
+
+        <h1 class="title">Usage</h1>
+        <p class="description">
+            ○ Download <b>WireGuard</b> client.
+            <br>
+            <br> ○ Download <b>.conf</b> file.
+            <br>
+            <br> ○ Import <b>.conf</b> file into <b>WireGuard</b>.
+            <br>
+            <br> ○ Activate connection and test it by pressing <b>Test WARP connection</b> button above. <b>Using DNS over WARP</b> parameter should be <b>Yes</b>.
+        </p>
+    </div>
+</body>
+</html>
